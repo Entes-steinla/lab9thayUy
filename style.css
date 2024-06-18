@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* bai 1 */
+#bai1 {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+}
+#bai1 hr {
+  height: 1px;
+  width: 200px;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#bai1 input {
+  padding: 0px;
+  border: solid 1px black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: max-content;
+}
+#bai1 button {
+  padding: 2px 4px 2px 4px;
+  border: solid 1px black;
+  width: max-content;
+}
+/* bai 2 */
+#bai2 {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  font-weight: bold;
+}
+#bai2 ul {
+  list-style: none;
+  align-items: center;
+}
+#bai2 input {
+  padding: 0px;
+  border: solid 1px black;
+  margin-bottom: 10px;
+  width: max-content;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#bai2 button {
+  width: max-content;
+  margin-right: 10px;
+  padding: 3px 7px 3px 7px;
+  border: solid 1px black;
+  border-radius: 2px;
+}
+#bai2 hr {
+  height: 1px;
+  width: 350px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+#bai2 p {
+  margin-bottom: 10px;
+}
+#bai2 .ul-quoctich {
+  position: absolute;
+  margin-top: 9px;
+}
+#bai2 .quoctich {
+  display: none;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px 275px 5px 5px;
+}
+#bai2 .dropdown:hover .ul-quoctich .quoctich {
+  display: block;
+}
+
+/* bai 3 */
+#bai3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#bai3 h3 {
+  text-align: start;
+  color: aqua;
+}
+#bai3 input {
+  padding: 12px;
+  padding-right: 90px;
+  border: solid 1px rgb(161, 159, 159);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: max-content;
+}
+#bai3 button {
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+}
+/* bai 4 */
+#bai4 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  justify-content: center;
+  font-weight: bold;
+}
+#bai4 input {
+  padding: 5px 97px 5px 3px;
+  border-radius: 3px;
+  border: solid 1px black;
+  margin-bottom: 10px;
+  width: max-content;
+}
+#bai4 hr {
+  width: 264px;
+  height: 1px;
+  background-color: black;
+}
+#bai4 button {
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-image: radial-gradient(
+    rgb(209, 206, 206) 30%,
+    rgb(0, 2, 145) 120%
+  );
+  font-weight: bold;
+  margin-left: 0;
+}
+#bai4 p {
+  margin-bottom: 4px;
+}
+/* bai5 */
